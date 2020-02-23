@@ -15,6 +15,7 @@
   - [Feature](#feature)
     - [Will update later](#will-update-later)
       - [version 0.0.1](#version-001)
+    - [version 0.0.2](#version-002)
 
 ---
 
@@ -313,3 +314,21 @@
 - group (like facebook group)
 - User Page
 - Setting
+
+### version 0.0.2
+
+- header change (Join/LogIn ---> LogOut)
+- List : 중복 모델 지정
+- Book Detail
+- Delete Upload Name
+- Create Story Upload
+- Create Essay Upload
+- Search logic
+- Book Detail
+- group Join
+- Change Name User Detail && new Upload Feature
+- 1 : 1 Talk (고객센터)
+- Find User
+- Update Request
+- Legal Notice
+- LogOut
