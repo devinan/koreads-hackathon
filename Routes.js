@@ -27,3 +27,8 @@ const FINISH_REQUEST = "/:id/finish";
 // Books
 const BOOKS = "/books";
 const BOOK_DETAIL = "/:id";
+
+// Bookmark
+const BOOKMARKS = "/bookmarks";
+const BOOKMARK_DETAIL = "/:id";
+const DELETE_BOOKMARK = "/:id/delete";
