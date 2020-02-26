@@ -14,7 +14,7 @@ const CHANGE_PASSWORD = "/change-password";
 
 // Settings
 const SETTINGS = "/settings";
-const INTERESET = "/interest";
+const INTEREST = "/interest";
 const NOTIFICATION = "/notification";
 
 // Help
@@ -32,3 +32,31 @@ const BOOK_DETAIL = "/:id";
 const BOOKMARKS = "/bookmarks";
 const BOOKMARK_DETAIL = "/:id";
 const DELETE_BOOKMARK = "/:id/delete";
+
+const routes = {
+  start: START,
+  home: HOME,
+  join: JOIN,
+  login: LOGIN,
+  logout: LOGOUT,
+  search: SEARCH,
+  users: USERS,
+  userDetail: USER_DETAIL,
+  editProfile: EDIT_PROFILE,
+  changePassword: CHANGE_PASSWORD,
+  settings: SETTINGS,
+  interest: INTEREST,
+  notification: NOTIFICATION,
+  requests: REQUSETS,
+  uploadRequest: UPLOAD_REQUEST,
+  requestDetail: REQUSET_DETAIL,
+  nextRequest: NEXT_REQUSET,
+  finishRequest: FINISH_REQUEST,
+  books: BOOKS,
+  bookDetail: BOOK_DETAIL,
+  bookmarks: BOOKMARKS,
+  bookmarkDetail: BOOKMARK_DETAIL,
+  deleteBookmark: DELETE_BOOKMARK
+};
+
+export default routes;
