@@ -16,3 +16,10 @@ const CHANGE_PASSWORD = "/change-password";
 const SETTINGS = "/settings";
 const INTERESET = "/interest";
 const NOTIFICATION = "/notification";
+
+// Help
+const REQUSETS = "/requests";
+const UPLOAD_REQUEST = "/upload";
+const REQUSET_DETAIL = "/:id";
+const NEXT_REQUSET = "/:id/next";
+const FINISH_REQUEST = "/:id/finish";
