@@ -5,6 +5,10 @@ import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import routes from "./routes";
 import bookmarkRouter from "./routers/bookmarkRouter";
+import bookRouter from "./routers/bookRouter";
+import helpRouter from "./routers/helpRouter";
+import globalRouter from "./routers/globalRouter";
+import userRouter from "./routers/userRouter";
 
 const app = express();
 
@@ -15,5 +19,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 
 app.use(routes.bookmarks, bookmarkRouter);
+app.use(routes.books, bookRouter);
+app.use(routes.help, helpRouter);
+app.use(routes.home, globalRouter);
+app.use(routes.users, userRouter);
 
 export default app;
