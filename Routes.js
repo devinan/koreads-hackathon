@@ -23,3 +23,7 @@ const UPLOAD_REQUEST = "/upload";
 const REQUSET_DETAIL = "/:id";
 const NEXT_REQUSET = "/:id/next";
 const FINISH_REQUEST = "/:id/finish";
+
+// Books
+const BOOKS = "/books";
+const BOOK_DETAIL = "/:id";
