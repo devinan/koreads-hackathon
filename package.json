@@ -1,0 +1,28 @@
+{
+  "name": "koreads-v4",
+  "version": "0.0.3",
+  "description": "> 📝 GoodReads Clone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinan/koreads-hackathon.git"
+  },
+  "author": "Devinan",
+  "bugs": {
+    "url": "https://github.com/devinan/koreads-hackathon/issues"
+  },
+  "homepage": "https://github.com/devinan/koreads-hackathon#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
