@@ -6,6 +6,9 @@ const JOIN = "/join";
 const LOGIN = "/login";
 const LOGOUT = "/logout";
 const SEARCH = "/search";
+const SETTINGS = "/settings";
+const INTEREST = "/interest";
+const NOTIFICATION = "/notification";
 
 // User
 
@@ -14,18 +17,13 @@ const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
 const CHANGE_PASSWORD = "/change-password";
 
-// Settings
-
-const SETTINGS = "/settings";
-const INTEREST = "/interest";
-const NOTIFICATION = "/notification";
-
 // Help
 
-const REQUSETS = "/requests";
+const HELP = "/help";
+const REQUESTS = "/requests";
 const UPLOAD_REQUEST = "/upload";
-const REQUSET_DETAIL = "/:id";
-const NEXT_REQUSET = "/:id/next";
+const REQUEST_DETAIL = "/:id";
+const NEXT_REQUEST = "/:id/next";
 const FINISH_REQUEST = "/:id/finish";
 
 // Books
@@ -46,17 +44,18 @@ const routes = {
   login: LOGIN,
   logout: LOGOUT,
   search: SEARCH,
+  settings: SETTINGS,
+  interest: INTEREST,
+  notification: NOTIFICATION,
   users: USERS,
   userDetail: USER_DETAIL,
   editProfile: EDIT_PROFILE,
   changePassword: CHANGE_PASSWORD,
-  settings: SETTINGS,
-  interest: INTEREST,
-  notification: NOTIFICATION,
-  requests: REQUSETS,
+  help: HELP,
+  requests: REQUESTS,
   uploadRequest: UPLOAD_REQUEST,
-  requestDetail: REQUSET_DETAIL,
-  nextRequest: NEXT_REQUSET,
+  requestDetail: REQUEST_DETAIL,
+  nextRequest: NEXT_REQUEST,
   finishRequest: FINISH_REQUEST,
   books: BOOKS,
   bookDetail: BOOK_DETAIL,
