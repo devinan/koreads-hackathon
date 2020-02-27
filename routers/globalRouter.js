@@ -6,14 +6,16 @@ import { notification, settings } from "../controllers/settingController";
 
 const globalRouter = express.Router();
 
-globalRouter.get(routes.home, home);
-globalRouter.get(routes.join, join);
-globalRouter.get(routes.interest, interest);
-globalRouter.get(routes.login, login);
-globalRouter.get(routes.logout, logout);
-globalRouter.get(routes.notification, notification);
-globalRouter.get(routes.search, search);
-globalRouter.get(routes.settings, settings);
-globalRouter.get(routes.start, start);
+globalRouter.get(routes.home);
+globalRouter.get(routes.help);
+globalRouter.get(routes.join);
+globalRouter.get(routes.interest);
+globalRouter.get(routes.login);
+globalRouter.get(routes.logout);
+globalRouter.get(routes.notification);
+globalRouter.get(routes.requests);
+globalRouter.get(routes.search);
+globalRouter.get(routes.settings);
+globalRouter.get(routes.start);
 
 export default globalRouter;
