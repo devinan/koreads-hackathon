@@ -20,11 +20,13 @@ const CHANGE_PASSWORD = "/change-password";
 // Help
 
 const HELP = "/help";
+
+// request
 const REQUESTS = "/requests";
 const UPLOAD_REQUEST = "/upload";
 const REQUEST_DETAIL = "/:id";
-const NEXT_REQUEST = "/:id/next";
-const FINISH_REQUEST = "/:id/finish";
+const NEXT_REQUEST = "/next";
+const FINISH_REQUEST = "/finish";
 
 // Books
 
