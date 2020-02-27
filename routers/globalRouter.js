@@ -1,5 +1,8 @@
 import express from "express";
 import routes from "../routes";
+import { join, interest, login, logout } from "../controllers/userController";
+import { home, search, start } from "../controllers/bookController";
+import { notification, settings } from "../controllers/settingController";
 
 const globalRouter = express.Router();
 
