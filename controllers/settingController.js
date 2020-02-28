@@ -1,3 +1,3 @@
-export const settings = (req, res) => res.send("Settings");
-export const notification = (req, res) => res.send("Notification");
-export const help = (req, res) => res.send("Help");
+export const settings = (req, res) => res.render("settings");
+export const notification = (req, res) => res.render("notification");
+export const help = (req, res) => res.render("help");

@@ -1,3 +1,3 @@
-export const bookmarks = (req, res) => res.send("Bookmarks");
-export const bookmarkDetail = (req, res) => res.send("Bookmark Detail");
-export const deleteBookmark = (req, res) => res.send("Delete Bookmark");
+export const bookmarks = (req, res) => res.render("bookmarks");
+export const bookmarkDetail = (req, res) => res.render("bookmarkDetail");
+export const deleteBookmark = (req, res) => res.render("deleteBookmark");
