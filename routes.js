@@ -1,7 +1,8 @@
 // Global
 
+const ROOT = "/";
+const HOME = "/home";
 const START = "/start";
-const HOME = "/";
 const JOIN = "/join";
 const LOGIN = "/login";
 const LOGOUT = "/logout";
@@ -41,6 +42,7 @@ const BOOKMARK_DETAIL = "/:id";
 const DELETE_BOOKMARK = "/:id/delete";
 
 const routes = {
+  root: ROOT,
   start: START,
   home: HOME,
   join: JOIN,
