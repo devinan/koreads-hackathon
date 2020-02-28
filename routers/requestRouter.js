@@ -9,9 +9,9 @@ import {
 
 const requestRouter = express.Router();
 
-requestRouter.get(routes.requestDetail, requestDetail);
 requestRouter.get(routes.uploadRequest, uploadRequest);
 requestRouter.get(routes.nextRequest, nextRequest);
 requestRouter.get(routes.finishRequest, finishRequest);
+requestRouter.get(routes.requestDetail, requestDetail);
 
 export default requestRouter;
