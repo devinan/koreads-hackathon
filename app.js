@@ -12,6 +12,7 @@ import requestRouter from "./routers/requestRouter";
 
 const app = express();
 
+app.set("view engine", "pug");
 app.use(helmet());
 app.use(cookieParser());
 app.use(bodyParser.json());
