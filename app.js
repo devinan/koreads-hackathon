@@ -12,6 +12,7 @@ import requestRouter from "./routers/requestRouter";
 
 const app = express();
 
+app.set("view engine", "pug");
 app.use(helmet());
 app.use(cookieParser());
 app.use(bodyParser.json());
@@ -20,7 +21,7 @@ app.use(morgan("dev"));
 
 app.use(routes.bookmarks, bookmarkRouter);
 app.use(routes.books, bookRouter);
-app.use(routes.home, globalRouter);
+app.use(routes.root, globalRouter);
 app.use(routes.requests, requestRouter);
 app.use(routes.users, userRouter);
 
