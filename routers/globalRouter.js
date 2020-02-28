@@ -1,6 +1,6 @@
 import express from "express";
 import routes from "../routes";
-import { home, search, start } from "../controllers/bookController";
+import { root, home, search, start } from "../controllers/bookController";
 import { bookmarks } from "../controllers/bookmarkController";
 import { requests } from "../controllers/requestController";
 import { notification, settings, help } from "../controllers/settingController";
@@ -8,6 +8,7 @@ import { join, interest, login, logout } from "../controllers/userController";
 
 const globalRouter = express.Router();
 
+globalRouter.get(routes.root, root);
 globalRouter.get(routes.home, home);
 globalRouter.get(routes.bookmarks, bookmarks);
 globalRouter.get(routes.help, help);
